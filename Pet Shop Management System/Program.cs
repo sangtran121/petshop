@@ -16,7 +16,8 @@ namespace Pet_Shop_Management_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Admin_Login());
+            // Thay đổi từ Admin_Login sang Chatbox
+            Application.Run(new Chatbox());
         }
     }
 }
